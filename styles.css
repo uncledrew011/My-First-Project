@@ -1,0 +1,371 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  background-color: #06002c;
+  align-items: center;
+  padding-left: 7%;
+  padding-right: 7%;
+  box-shadow: 0.5px 0.5px 10px 1px white;
+  position: fixed;
+  top: 0;
+}
+.navbar .name {
+  color: white;
+  font-size: 2.5rem;
+}
+.navbar .li-parent {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.li-parent a{
+  text-decoration: none;
+  color: white;
+}
+.navbar .li-parent:hover{
+  cursor: pointer;
+}
+.li-parent .Home {
+  color: #ffc830;
+  border-bottom: 2px solid #ffc830;
+}
+.navbar .bar-icon {
+  color: white;
+  font-size: 30px;
+}
+
+/* Here is Start My Hero Section Css  */
+.Hero-section {
+  width: 100%;
+  background-color: #06002c;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+}
+.Hero-section .left-hero-div {
+  width: 50%;
+}
+.Hero-section .left-hero-div .Hero-name {
+  color: white;
+  font-size: 3rem;
+}
+.left-hero-div .Hero-name .my-name {
+  color: #75f94c;
+}
+.Hero-section .left-hero-div .my-position {
+  color: white;
+  font-size: 1.7rem;
+  margin-top: 20px;
+}
+.left-hero-div .my-position .position-value {
+  color: #ffc300;
+}
+.left-hero-div .contact-btn {
+  padding: 10px 20px;
+  background-color: #ffc300;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-radius: 30px;
+  border: none;
+  margin-top: 100px;
+}
+.contact-btn a {
+  text-decoration: none;
+  color: black;
+}
+.contact-btn a:hover {
+  color: white;
+}
+.contact-btn:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.Hero-section .right-hero-div {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+
+.right-hero-div .profile-div {
+  width: 400px;
+  height: 400px;
+  border: 3px solid #75f94c;
+  border-radius: 50%;
+}
+.right-hero-div .profile-div .Profile-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.link-section {
+  padding-left: 7%;
+  padding-right: 7%;
+  background-color: #06002c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 1.9rem;
+  gap: 10%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.link-section a {
+  color: white;
+}
+.link-section i:hover {
+  cursor: pointer;
+  color: yellow;
+}
+
+/* About Me Section Css Start Here */
+.about-me-Section .About-Me-Main {
+  width: 100%;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+}
+.About-Me-Main .about-Left {
+  width: 40%;
+}
+.About-Me-Main .about-Left .aboutMe-image {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  border: 5px solid #75f94c;
+}
+.About-Me-Main .about-Right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.About-Me-Main .about-Right .aboutMe-heading {
+  color: #1d154a;
+  font-size: 2.2rem;
+}
+.about-Right .about-message {
+  font-size: 1.2rem;
+  text-align: justify;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #06002c;
+  margin-top: 25px;
+}
+.about-Right .about-message .about-name {
+  color: rgb(192, 11, 11);
+  font-weight: 600;
+}
+
+/* Here is Start My Skill Section Css */
+.skill-section .skill-main {
+  width: 100%;
+  padding: 70px 7%;
+  background-color: #06002c;
+}
+.skill-main .skill-logo-div {
+  display: flex;
+  align-items: end;
+}
+.skill-logo-div .skill-heading {
+  color: #75f94c;
+  font-size: 2rem;
+}
+.skill-main .Skill-para {
+  color: white;
+  font-size: 1.3rem;
+  word-spacing: 7px;
+  margin-top: 50px;
+  text-align: justify;
+  line-height: 35px;
+}
+.skill-main .skill-card-main-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.skill-card-main-div .skill-card {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.skill-card .skill-card-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px solid #75f94c;
+}
+.skill-card .skill-card-Heading {
+  color: #ffc830;
+  font-size: 1.7rem;
+}
+.skill-card .skill-card-description {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Education and Experience Section  Start Here */
+.Edu-exe-section .Edu-exe-mainDiv {
+  width: 100%;
+  padding: 70px 7%;
+}
+.Edu-exe-mainDiv .Edu-exe-Heading {
+  color: #06002c;
+  font-size: 2.3rem;
+  margin-bottom: 40px;
+}
+.Edu-exe-mainDiv .eduction-details-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.eduction-details-div .clg-info-div {
+  height: 100%;
+}
+.eduction-details-div .clg-info-div .clg-name {
+  font-size: 1.2rem;
+}
+.eduction-details-div .clg-info-div .edu-name {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.eduction-details-div .year {
+  height: 100%;
+}
+.year .year-value {
+  font-weight: 600;
+}
+/* Here is Start My Contact Section Css */
+.Contact-section .contact-mainDiv {
+  width: 100%;
+  /* height: 500px; */
+  background-color: #06002c;
+  padding: 20px 7%;
+  color: white;
+}
+.contact-mainDiv .ContactMe-heading {
+  color: #75f94c;
+  font-size: 2.3rem;
+  margin-bottom: 30px;
+}
+.contact-mainDiv .logo-link-div {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.contact-mainDiv .logo-link-div i {
+  font-size: 1.3rem;
+}
+.contact-mainDiv .logo-link-div a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 1.3rem;
+}
+.contact-mainDiv .Copyright {
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 120px;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar .li-parent {
+    display: none;
+  }
+  .Hero-section .left-hero-div {
+    width: 100%;
+  }
+  .Hero-section .right-hero-div {
+    width: 100%;
+    justify-content: start;
+    margin-top: 50px;
+  }
+  .Hero-section {
+    flex-direction: column;
+  }
+  .right-hero-div .profile-div {
+    width: 300px;
+    height: 300px;
+  }
+  .About-Me-Main .about-Left {
+    width: 100%;
+  }
+  .About-Me-Main .about-Right {
+    width: 100%;
+  }
+  .about-me-Section .About-Me-Main {
+    flex-direction: column;
+  }
+  .About-Me-Main .about-Left .aboutMe-image {
+    width: 300px;
+    height: 300px;
+  }
+  .About-Me-Main .about-Right .aboutMe-heading {
+    margin-top: 25px;
+  }
+  .about-Right .about-message {
+    word-spacing: 1px;
+  }
+  .skill-card-main-div .skill-card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .skill-main .skill-card-main-div {
+    flex-direction: column;
+  }
+  .Edu-exe-mainDiv .eduction-details-div {
+    flex-direction: column;
+  }
+  .eduction-details-div .year {
+    margin-top: 20px;
+  }
+  .contact-mainDiv .logo-link-div a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 0.8rem;
+  }
+  .contact-mainDiv .Copyright {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .navbar .bar-icon {
+    display: none;
+  }
+  .navbar .dropdown-section{
+    display: none;
+  }
+}
